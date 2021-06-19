@@ -1,0 +1,225 @@
+/*
+   File: timelog.css
+   Author: S. Sigman, A. Hutchinson IV          Date: 12/30/2020
+   Copyright 2021 by Scott Sigman, A. Hutchinson IV
+   
+   This file is the main style file for the time log
+   application.
+
+   Notes: 
+   1. image from: https://pixabay.com/illustrations/abstract-lines-www-computer-dual-5371567/
+   2. responsive background from: https://www.webfx.com/blog/web-design/responsive-background-image/
+
+   Modifications:
+
+*/
+/* basic body rules */
+body{
+   background-color: #010A4f;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 16px;
+   min-width: 500px;
+}
+
+.bckgrnd-centered {
+   /* image from - https://pixabay.com/illustrations/abstract-lines-www-computer-dual-5371567/ */
+   background-image: url("../images/desktop/abstract-5371567.jpg");
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
+
+/* small page header */
+#sm-head {
+   display: none;
+}
+
+.page-title{
+   font-size: 1.5em;
+}
+
+.fa-bars {
+   color: white;
+   font-size: 1.5rem;
+}
+
+/* Desktops larger than 992 px */
+.page-title {
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 3em;
+   font-weight: bold;
+   color: white;
+}
+
+/* login rules */
+.login-container, #menu-icon-container{
+   margin:auto;
+   display:block;
+}
+
+/* change the primary button color and it's hover color */
+.btn-primary {
+   background-color:#253036!important;
+   border-color:#253036;
+}
+
+.btn-primary:hover {
+   background-color: #4d6675!important;
+   border-color: #4d6675;
+}
+
+.login {
+   vertical-align: middle;
+}
+
+/* footer rules */
+footer{
+   color: white;
+}
+
+/* general rules */
+#about-info {
+   margin-top: -1.5rem;
+   display: none;
+}
+
+.hide {
+   display: none;
+}
+
+/* Rules for the sidebar menu */
+/* Adapted from : https://bootstrap-menu.com/detail-offcanvas-mobile.html */
+#navbar_main{
+   display: none;
+}
+body.offcanvas-active{
+	overflow:hidden;
+}
+
+.offcanvas-header{ 
+   display:none; 
+}
+
+.screen-overlay {
+   width:0%;
+   height: 100%;
+   z-index: 30;
+   position: fixed;
+   top: 0;
+   left: 0;
+   opacity:0;
+   visibility:hidden;
+   background-color: rgba(34, 34, 34, 0.6);
+   transition:opacity .2s linear, visibility .1s, width 1s ease-in;
+}
+
+.screen-overlay.show {
+   transition:opacity .5s ease, width 0s;
+   opacity:1;
+   width:100%;
+   visibility:visible;
+}
+
+.bg-primary{
+   background-color:#010A4f!important;
+}
+
+.btn-light{
+   background-color: transparent;
+   border: none;
+   color: white;
+}
+
+.btn-light:hover{
+   background-color: transparent;
+   color: white;
+}
+
+/* sign in modal rules */
+.modal-header, .modal-footer{
+   background-color: #010A4f;
+   color: white;
+}
+
+.modal-header .fa-times{
+   color: white;
+}
+
+.modal-header .fa-times:hover {
+   color: white;
+}
+
+/* Rules for tablet */
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+   .bckgrnd-centered {
+      background-image: url("../images/tablet/abstract-5371567_1280.jpg");
+   }
+
+   #stu-col {
+      display: block;
+   }
+
+   #inst-col {
+      display: block;
+   }
+}
+
+/* Rules for phones */
+@media only screen and (max-device-width: 767px) {
+   #lg-md-head{
+      display: none;
+   }
+
+   #sm-head{
+      display: flex;
+      margin-bottom: 1.5rem;
+   }
+
+   #stu-col {
+      display: none;
+   }
+
+   #inst-col {
+      display: none;
+   }
+
+   .page-title{
+      font-size: 1.5em;
+   }
+
+   footer {
+      display: none;
+   }
+
+   /* Rules for sidebar on phone */
+
+ #navbar_main {
+      display: block;
+}
+
+   .offcanvas-header{ 
+      display:block; 
+   }
+
+   .mobile-offcanvas{
+		visibility: hidden;
+		transform:translateX(-100%);
+	    border-radius:0; 
+		 display:block;
+	    position: fixed;
+	    top: 0; left:0;
+	    height: 100%;
+	    z-index: 1200;
+	    width:50%;
+	    overflow-y: scroll;
+	    overflow-x: hidden;
+	    transition: visibility .2s ease-in-out, transform .2s ease-in-out;
+   }
+   
+   .mobile-offcanvas.show{
+		visibility: visible;
+    	transform: translateX(0);
+	}
+
+}

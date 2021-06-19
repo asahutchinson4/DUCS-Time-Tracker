@@ -1,0 +1,32 @@
+{
+    "lname": "Duck",
+    "fname": "Donald",
+    "email": "dduck@school.edu",
+    "password": "letmein!",
+    "role": "student",
+    "projects": [{"projCode": "DTT", "name": "DUCS Time Tracker"}]
+}
+{
+    "lname": "Duck",
+    "fname": "daisy",
+    "email": "daisyduck@school.edu",
+    "password": "letmein!",
+    "role": "student",
+    "projects": [{"projCode": "DTT", "name": "DUCS Time Tracker"},{"projCode": "SP1", "name": "Simple Project I"}]
+}
+{
+    "lname": "McDuck",
+    "fname": "Professor",
+    "email": "mcduck@school.edu",
+    "password": "letmein!",
+    "role": "instructor",
+    "projects": [{"projCode": "DTT", "name": "DUCS Time Tracker"},{"projCode": "SP1", "name": "Simple Project I"}]
+}
+{
+    "lname": "Doe",
+    "fname": "John",
+    "email": "jd@school.edu",
+    "password": "letmein!",
+    "role": "student",
+    "projects": []
+}

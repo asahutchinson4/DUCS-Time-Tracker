@@ -1,0 +1,80 @@
+/*
+   File: reportchart.css
+   Author: A. Hutchinson IV          Date: 2/17/2021
+   Copyright 2021 by A. Hutchinson IV 
+   
+   This file is the subsidary style file for the reporting-page
+   application and modal pop up
+
+*/
+
+table{
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+table tr:hover{
+    background-color: lightgrey;
+}
+
+table th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#010A4f;
+    color:white;
+    padding: 20px 40px;
+}
+
+table td{
+    border: 1px solid white;
+    padding: 18px 30px;
+}
+
+.chart h2{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+#modalReport{
+    background-color:#010A4f;
+    color:white;
+    padding: 20px 40px;
+}
+
+#modalName{
+    margin-left:15px;
+}
+
+#modalWeek{
+    margin-left:15px;
+}
+
+#modalProject{
+    margin-left:15px;
+}
+
+#modalTotalHrs{
+    margin-left:15px;
+}
+
+.button{
+    color: white;
+    float: right;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+#create-btn{
+    background-color: #006400;
+    border: #006400;
+}

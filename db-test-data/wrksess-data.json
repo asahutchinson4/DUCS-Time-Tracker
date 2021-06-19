@@ -1,0 +1,50 @@
+// This is sample data, but you will have to use the save route to create
+// entries in the database because of a problem with the date
+{
+    "owner": "dduck@school.edu",
+    "project":"DTT",
+    "date": {"date": "2021-01-05T00:00:00.000Z"},
+    "startHr":"18",
+    "startMin": "15",
+    "finishHr": "20",
+    "finishMin": "10",
+    "code": "10",
+    "code90Desc": "",
+    "description": "Defined user stories for the DTT app."
+}
+{
+    "owner": "dduck@school.edu",
+    "project":"DTT",
+    "date": {"date": "2021-01-07T00:00:00:000Z"},
+    "startHr":"11",
+    "startMin": "00",
+    "finishHr": "13",
+    "finishMin": "30",
+    "code": "30",
+    "code90Desc": "",
+    "description": "Worked on defining the DTT architecture."
+}
+{
+    "owner": "daisyduck@school.edu",
+    "project":"DTT",
+    "date": {"date":"2021-01-03T00:00:00.000Z"},
+    "startHr":"17",
+    "startMin": "00",
+    "finishHr": "18",
+    "finishMin": "38",
+    "code": "80",
+    "code90Desc": "",
+    "description": "Started tutorial on React.js."
+}
+{
+    "owner": "daisyduck@school.edu",
+    "project":"SP1",
+    "date": {"date":"2021-01-05T00:00:00:000Z"},
+    "startHr":"9",
+    "startMin": "00",
+    "finishHr": "12",
+    "finishMin": "15",
+    "code": "90",
+    "code90Desc": "Travel",
+    "description": "Traveled to meeting with customer."
+}

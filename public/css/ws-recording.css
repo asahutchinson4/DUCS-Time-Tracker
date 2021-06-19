@@ -1,0 +1,88 @@
+/*
+   File: ws-recording.css
+   Author: S. Sigman, Asa Hutchinson IV          Date: 1/18/2021, Date: 5/4/2021
+   Copyright 2021 by Scott Sigman, Asa Hutchinson IV
+   
+   This file is the style file for the work session recording page, 
+   ws-recording.html.
+
+   Notes: 
+   1. image from: https://pixabay.com/illustrations/abstract-lines-www-computer-dual-5371567/
+   2. responsive background from: https://www.webfx.com/blog/web-design/responsive-background-image/
+
+   Modifications:
+
+*/
+
+/* heading rules */
+.fa-user-circle, .user{
+    color: white;
+    font-size: 1rem;
+}
+
+#navbar_main{
+    display: block;
+ }
+
+ /* modal popup rules */
+ #cardsModalReport{
+    background-color:#010A4f;
+    color:white;
+    padding: 20px 40px;
+}
+
+table{
+    border-collapse: collapse;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+table tr:hover{
+    background-color: lightgrey;
+}
+
+table th{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:#010A4f;
+    color:white;
+    padding: 20px 40px;
+}
+
+table td{
+    border: 1px solid white;
+    padding: 18px 30px;
+}
+
+.chart h2{
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+
+.button{
+    color: white;
+    float: right;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+}
+
+#edit-btn{
+    background-color: #8b0000;
+    border: #8b0000;
+}
+
+#save-btn{
+    background-color: #006400;
+    border: #006400;
+}
+
+ /* form rules */

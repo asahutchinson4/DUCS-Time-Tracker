@@ -1,0 +1,10 @@
+Data can be imported into a MonboDB database and collection using the
+mongoimport utility.  The following command can be used to import the 
+users defined in users-data.json into a users collection in the 
+ducs_tra database.
+
+Users:
+mongoimport --db ducs_tra --collection users --file users-data.json
+
+Projects:
+mongoimport --db ducs_tra --collection projects --file projects-data.json

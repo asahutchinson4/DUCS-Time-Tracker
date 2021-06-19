@@ -1,0 +1,16 @@
+{
+    "projCode": "DTT",
+    "name": "DUCS Time Tracker",
+    "course": "CSCI 357",
+    "semester": "S2021",
+    "users": ["dduck@school.edu", "daisyduck@school.edu"],
+    "owners": ["mcduck@school.edu"]
+}
+{
+    "projCode": "SP1",
+    "name": "Simple Project I",
+    "course": "CSCI 496",
+    "semester": "S2021",
+    "users": ["daisyduck@school.edu"],
+    "owners": ["mcduck@school.edu"]
+}
