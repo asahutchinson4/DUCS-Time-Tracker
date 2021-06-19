@@ -3,7 +3,7 @@
 ## Spring Semester 2021
 
 ## Preface
-This repo is derived from the previous repo owned by my professor, Dr. Sigman. I wanted to make a new repo with my code copied over that is separate from him and my university. This is my project and my code that spanned over 7 sprints and 3 months. I just wanted a fresh repo that is owned and managed by only me.
+This repo is derived from the previous repo owned by my professor, Dr. Sigman. I wanted to make a new repo with my code copied over that is separate from him and my university. This is my project and my code that spanned over 7 sprints and 4 months. I just wanted a fresh repo that is owned and managed by only me.
 
 ## Overview
 
