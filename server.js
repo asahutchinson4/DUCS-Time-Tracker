@@ -1,14 +1,9 @@
 // File: server.js 
-// Author: S. Sigman  Date: 12/30/2020
+// Author: A. Hutchinson IV  Date: 12/30/2020
 //
 // server.js contains the code for the DTT Server component
-// of the Ducs Time Tracker application.  Responsibilities of
-// the server are:
-//
-//   1. Server the static web pages in the web component of 
-//      the system.
-//   2. Provide the DTT API for both the web and the mobile
-//      components of the system.
+// of the Ducs Time Tracker application. 
+
 
 // import the express server
 const express = require("express");

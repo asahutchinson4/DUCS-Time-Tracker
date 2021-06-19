@@ -1,6 +1,6 @@
 // File wsession.js
 // Author: S. Sigman, A. Hutchinson IV  Date: 11/23/2020
-// Copyright 2021 by S. Sigman, A. Hutchinson IV
+// Copyright 2021 by A. Hutchinson IV
 // 
 // This file defines the API routes for work session
 // objects.

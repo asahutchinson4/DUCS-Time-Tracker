@@ -1,4 +1,4 @@
-// File modalReport.js
+// File timeCardModal.js
 // Author: A. Hutchinson IV  Date: 5/5/2021
 // Copyright 2021 by A. Hutchinson IV
 // 
@@ -6,11 +6,11 @@
 // object.
 // API
 //  Resource                        Req Verb            Description                 Status Code
-//  /modalReport?p=PP&d=DD&e=EE       GET          Retrieve all worksessions,        200 (OK)
-//                                                 full name, project name,          212(partial information)
+//  /timeCardModal?e=EE               GET          Retrieve all worksessions,        200 (OK)
+//                                                 project names,                    212(partial information)
 //                                                 total hours worked, and
-//                                                 end date for email EE on 
-//                                                 project PP        
+//                                                 amount of projects for email EE
+//                                                         
 //                                                                                  
 //
 

@@ -1,16 +1,14 @@
 // File: ws-recording.js
-// Author: S. Sigman   Date: 1/19/2021
-// Copyright 2021 by Scott Sigman
+// Author: A. Hutchinson IV   Date: 1/19/2021
+// Copyright 2021 by A. Hutchinson IV
 //
 // This file defines the functionality for the work session recording
 // page of the application.
 // 
 // Sidebar code from: https://bootstrap-menu.com/detail-offcanvas-mobile.html
-//
-// Modification:  
-// I called the wsession API from ajax to save the work session
-// I handled validation errors before submission by using .done() and .fail()
-// Used status codes within the validation to save work sessions
+
+
+
 $(() => {
     // create an instance of the work session recording page of the app
     stuWSApp = new WSApp("DUCS Time Tracker");

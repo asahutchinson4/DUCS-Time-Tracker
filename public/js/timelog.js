@@ -1,18 +1,13 @@
 // File: timelog.js
-// Author: S. Sigman   Date: 12/30/2020
-// Copyright 2021 by Scott Sigman
+// Author: S. Sigman, A. Hutchinson IV   Date: 12/30/2020
+// Copyright 2021 by A. Hutchinson IV
 //
 // This file defines the functionality for the landing page of the
 // DTT application.
 // 
 // Sidebar code from: https://bootstrap-menu.com/detail-offcanvas-mobile.html
-//
-// Modification:  
-//  1/18/2021 Modified to implement app style initialization
-//  1/25/2021 Modified signin to save email of user and to transfer
-//            to the ws-recording page if the user's role is student.
-//            S. Sigman
-//
+
+
 
 $(() => {
     // create an instance of the landing page of the app

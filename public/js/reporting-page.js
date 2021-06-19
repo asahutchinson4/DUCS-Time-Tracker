@@ -1,3 +1,11 @@
+// File: ws-recording.js
+// Author: A. Hutchinson IV   Date: 1/19/2021
+// Copyright 2021 by A. Hutchinson IV
+//
+// This file defines the functionality for the work session reporting
+// page of the application.
+
+
 $(() => {
         
         // sets default date of date selector for start week
