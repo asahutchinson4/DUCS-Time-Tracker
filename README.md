@@ -8,7 +8,7 @@ This repo is derived from the previous repo owned by my professor, Dr. Sigman. I
 ## Overview
 
 The *DUCS Time Tracker (DTT)* project is a web/mobile app that supports Drury Math & Computer Science courses that require students to record the time they spend on a course project.  The application will allow student to easilty record the time they spend working on projects in their classes.  It will also allow instructors to easily 
-create weekly time sheets for use in recording grades.  The functionality of the app is defined in the following set of user stories.
+create weekly time sheets for use in recording grades.  The functionality of the app is defined in the following set of user stories. MongoDB and MySQL are both used here to store data.
 
 ## Requirements
 
